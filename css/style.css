@@ -1,9 +1,9 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/crossline-dots.png");
+  background: url("https://www.newgenapps.com/hubfs/canvas/images/parallax/Website-Design-Background.png");
 }
 
 * {
@@ -19,12 +19,24 @@ body {
   clear: both;
 }
 
+.card {
+  border: none;
+}
+.card img {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 5px;
+  height: auto;
+  width: 100%;
+  border-style: round;
+}
+
 h1,
 h2,
 h3,
 p {
   margin-bottom: 20px;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Lato', sans-serif;
   
 }
 
@@ -35,16 +47,16 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #212525;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 3px round #dddddd;
 }
 
 h2,
@@ -85,7 +97,7 @@ h3, h2 {
    padding: 30px;
    margin: 0 0 40px;
    background: #ffffff;
-   border: 1px solid #dddddd;
+   border: 1px rounded #dddddd;
    clear: both;
 }
 
@@ -115,6 +127,8 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  max-width: 100%;
+  height: auto;
  
 }
 
@@ -138,6 +152,15 @@ h3, h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+}
+
+.col, .row {
+  float: left;
+  margin: 10px 10px;
+  padding-top: 5px;
+  height: auto;
+  width: 100%;
+
 }
 
 /* contact page */
@@ -184,27 +207,16 @@ input[type=submit] {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #021b1a;
+  border-style: round;
 }
 
-/*For Media Screen */
 
-@media screen and (max-width: 960px) {
-  .container { 
-    width: 100%;
-    padding: 20px;
-    
- }
-
- #main-container { width: 100%;
-}
-
-}
 
