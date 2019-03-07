@@ -181,9 +181,15 @@ textarea {
   width: 100%;
 }
 
+label {
+  color: black;
+  font-weight: bold;
+}
+
 input[type=text],
 input[type=email],
 textarea {
+  font-family: 'Roboto Condensed', sans-serif;
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
@@ -199,7 +205,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #6d7575;
   border: 0 none;
 }
 
