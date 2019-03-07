@@ -124,26 +124,27 @@ h3, h2 {
 }
 
 .work img {
-  width: 100%;
+  width: 95%;
   border: 0 none;
   opacity: 0.8;
   max-width: 100%;
-  height: auto;
+  height: 100%;
  
 }
 
 .work h3 {
   position: absolute;
   bottom: 20px;
-  width: 100%;
-  padding: 15px;
+  width: 95%;
+  padding: 10px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: #545858;
   border-bottom: 0;
+  opacity: 0.8;
 }
 
 .auth-image {
@@ -205,7 +206,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #6d7575;
+  background: #2d3131;
   border: 0 none;
 }
 
