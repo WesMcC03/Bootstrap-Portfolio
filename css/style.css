@@ -56,7 +56,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px round #dddddd;
+  border-bottom: 3px solid #2b2929;
 }
 
 h2,
@@ -97,8 +97,9 @@ h3, h2 {
    padding: 30px;
    margin: 0 0 40px;
    background: #ffffff;
-   border: 1px rounded #dddddd;
+   border: 1px solid #2b2828;
    clear: both;
+   color: #1d1f1f;
 }
 
 .main-section img{
@@ -108,6 +109,7 @@ h3, h2 {
   
   
 }
+
 
 /* portfolio page */
 
@@ -223,6 +225,10 @@ input[type=submit] {
   text-decoration: none;
   background: #021b1a;
   border-style: round;
+}
+
+.main-section h1 {
+  border-bottom: 1px solid #1d1f1f;
 }
 
 
